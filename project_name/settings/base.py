@@ -72,13 +72,13 @@ USE_TZ = True
 
 # Media and static files
 MEDIA_URL = '/media/'
-MEDIA_ROOT = get_path('{{ project_name }}/media/')
+MEDIA_ROOT = 'media/'
 STATIC_URL = '/static/'
-STATIC_ROOT = get_path('{{ project_name }}/static/')
+STATIC_ROOT = 'static/'
 
 # Templates
 TEMPLATE_DIRS = (
-    get_path('{{ project_name }}/templates/'),
+    'templates/',
 )
 
 # Application definition
